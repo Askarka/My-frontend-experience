@@ -1,0 +1,87 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+@media screen and (max-width: 1000px) {
+	.flex-c{
+		flex-direction: column;
+	}
+}
+
+.flex_centre{
+	display: flex;
+	border: 1px outset blue; 
+	width: 85%;
+	height: 900px;
+	font-size: 19px;
+}
+
+.flex-l{
+	padding: 0 2%;
+	line-height: 2;
+	font-size: 17px;y: flex;
+	displa
+	width: 14%;
+	height: 900px;
+}
+
+.hedline{
+	font-size: 60px;
+}
+
+.flex-c{
+	justify-content: flex-start;
+	display: flex;
+}
+
+.my_header{
+	font-size: 130%;
+	padding: 0 0 0 0;
+}
+
+.logo{
+	width: 15%;
+	padding: 0 2% 2% 2%;
+}
+
+.block{
+	 float: right;
+	 padding: 1%;
+	 margin: 3%;
+	 border: 3px solid black;
+}
